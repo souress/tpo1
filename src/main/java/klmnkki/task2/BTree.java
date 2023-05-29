@@ -65,17 +65,3 @@ public class BTree
         }
     }
 }
-
-class Main
-{
-    public static void main(String[] args)
-    {
-        var tree = new BTree(3);
-        for (int i = 0; i < 10; i++)
-        {
-            tree.insert(i);
-        }
-
-        tree.traverse();
-    }
-}
